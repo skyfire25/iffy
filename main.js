@@ -11,7 +11,8 @@ if(userInput1 === undefined && userInput2 === undefined){
   let x = colorDeconstructor
 console.log(x(userInput1))
 }else if(userInput1 === undefined && userInput2 === undefined){
-  console.log(x(userInput1 + userInput2))
+  let a = colorCombinator
+  console.log(a(userInput1))
 }
 
 
